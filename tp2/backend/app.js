@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import "dotenv/config";
-import notasRoutes from "./routes/notas.routes.js";
+import notasRoutes from "./routes/nota.routes.js";
 import { conectarDB } from "./config/db.js";
 
 const app = express();

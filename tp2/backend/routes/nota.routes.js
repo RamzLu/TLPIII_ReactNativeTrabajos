@@ -5,7 +5,7 @@ import {
   createNota,
   updateNota,
   deleteNota,
-} from "../controllers/notas.controller.js";
+} from "../controllers/nota.controller.js";
 
 const router = express.Router();
 
