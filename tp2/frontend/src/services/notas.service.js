@@ -1,3 +1,7 @@
+//Segun el principio de software "Responsabilidad única" las
+// carpetas service se utiliza para separar la lógica de comunicación
+//  on el backend de la lógica visual
+
 const API_URL = "http://localhost:3001/api/notas";
 
 export const obtenerNotas = async () => {
