@@ -1,0 +1,26 @@
+{
+  "name": "servidor_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RamzLu/TLPIII_ReactNativeTrabajos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RamzLu/TLPIII_ReactNativeTrabajos/issues"
+  },
+  "homepage": "https://github.com/RamzLu/TLPIII_ReactNativeTrabajos#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  }
+}
