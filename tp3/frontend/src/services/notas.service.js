@@ -20,6 +20,16 @@ export const crearNota = async (nuevaNota) => {
   return respuesta.json();
 };
 
+export const actualizarNota = async (id, notaActualizada) => {
+  const respuesta = await fetch(`${API_URL}/${id}`, {
+    method: "PUT",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(notaActualizada),
+  });
+  if (!respuesta.ok) throw new Error("Error al actualizar la nota");
+  return respuesta.json();
+};
+
 export const eliminarNota = async (id) => {
   const respuesta = await fetch(`${API_URL}/${id}`, {
     method: "DELETE",
