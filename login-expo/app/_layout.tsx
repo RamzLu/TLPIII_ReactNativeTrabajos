@@ -5,19 +5,8 @@ export default function RootLayout() {
     <Stack screenOptions={{ headerShown: false }}>
       {/* Pantalla de Login */}
       <Stack.Screen name="index" />
-      {/* Pantalla de Dashboard */}
-      <Stack.Screen name="dashboard" />
-      {/* Pantalla con el código por defecto */}
-      <Stack.Screen
-        name="expo-default"
-        options={{
-          headerShown: true,
-          title: "🌸 Código de Expo",
-          headerStyle: { backgroundColor: "#FFB6C1" },
-          headerTintColor: "#FFF",
-          headerTitleStyle: { fontWeight: "bold" },
-        }}
-      />
+      {/* Grupo de pestañas (Dashboard y Expo) */}
+      <Stack.Screen name="tabs" />
     </Stack>
   );
 }
